@@ -1,3 +1,3 @@
 # my-portfolio
 
-This is a personal design and art portfolio for myself, with the main intention being it is a place where potential clients, hiring managers, or business owners can take a look at examples of my creative works as well as my information as I look to get hired in a creative design position.
+This is my personal art and design portfolio, made with the intention to show potential clients, hiring managers, or business owners examples of my creative works. Alongside that, my information will also be made available here as to welcome any professional inquiries as I pursue work in a creative design position or freelance.
