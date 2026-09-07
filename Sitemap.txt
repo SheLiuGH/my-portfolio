@@ -1,0 +1,5 @@
+Home (index.html)
+ - Art Works (art.html)
+ - Graphic Works (graphic.html)
+ - Info (info.html)
+ - Contact (contact.html)
