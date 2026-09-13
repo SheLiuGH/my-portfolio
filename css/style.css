@@ -1,11 +1,16 @@
 body {
-  font-family: 'Courier New', monospace;
-  color: #220000;
-  background-color: #D2FFD2;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #162E01;
+  background-color: #E1FFE1;
 }
 
 header {
-  background-color: #254607;
+  background-color: #374E32;
   color: #FFFFFF;
   padding: 20px;
+}
+
+header nav a {
+  color: #ffffff;
+  margin-right: 16px;
 }
