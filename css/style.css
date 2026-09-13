@@ -1,16 +1,34 @@
 body {
   font-family: 'Trebuchet MS', sans-serif;
   color: #162E01;
-  background-color: #E1FFE1;
+  background-color: #F2FFF2;
 }
 
 header {
   background-color: #374E32;
   color: #FFFFFF;
-  padding: 20px;
+  padding: 5px;
 }
 
 header nav a {
   color: #ffffff;
   margin-right: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
