@@ -33,6 +33,12 @@ main {
   padding: 40px 20px;
 }
 
+footer {
+  font-size: 0.875rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 .cta {
   display: inline-block;
   background-color: #56E39F;
