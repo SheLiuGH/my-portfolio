@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #5B6C5D;
+  background-color: #56E39F;
   color: #2A1F2D;
   padding: 10px;
 }
@@ -35,7 +35,7 @@ main {
 
 .cta {
   display: inline-block;
-  background-color: #56E39F;
+  background-color: #59C9A5;
   color: #2A1F2D;
   font-size: 1.25rem;
   padding: 10px 20px;
