@@ -1,17 +1,17 @@
 body {
   font-family: 'Trebuchet MS', sans-serif;
-  color: #162E01;
-  background-color: #F7FDF4;
+  color: #3B2C35;
+  background-color: #F2F2F2;
 }
 
 header {
-  background-color: #374E32;
-  color: #FFFFFF;
+  background-color: #59C9A5;
+  color: #2A1F2D;
   padding: 10px;
 }
 
 header nav a {
-  color: #ffffff;
+  color: #2A1F2D;
   margin-right: 16px;
 }
 
@@ -35,10 +35,10 @@ main {
 
 .cta {
   display: inline-block;
-  background-color: #04AA6D;
-  color: #FFFFFF;
-  font-size: 1.5rem;
-  padding: 10px 10px;
+  background-color: #56E39F;
+  color: #2A1F2D;
+  font-size: 1.25rem;
+  padding: 10px 20px;
   border-radius: 4px;
   margin-top: 5px;
 }
