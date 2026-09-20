@@ -9,7 +9,9 @@ header {
   color: #FFFFFF;
   padding: 10px 10px;
   display: flex;
-  border-radius: 30px;
+  justify-content: space-between;
+  align-items: baseline;
+  border-radius: 50px;
   margin: 30px;
 }
 
