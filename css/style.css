@@ -66,6 +66,10 @@ p {
   padding: 0px 55px;
 }
 
+.description h1 {
+  text-weight: 100px;
+}
+
 main {
   max-width: 1000px;
   margin: 0 auto;
