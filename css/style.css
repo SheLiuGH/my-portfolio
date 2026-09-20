@@ -19,14 +19,12 @@ header {
 header nav a {
   color: #FFFFFF;
   margin-right: 16px;
-}
-
-header nav a [aria-current='page'] {
-  font-weight: bold;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 nav a[aria-current="page"] {
-  font-weight: normal;
+  font-weight: bold;
   text-decoration: underline;
 }
 
