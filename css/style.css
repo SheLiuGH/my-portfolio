@@ -60,6 +60,11 @@ p {
   font-size: 1.25rem;
 }
 
+.description {
+  text-align: left;
+  padding: 0px 25px;
+}
+
 main {
   max-width: 1000px;
   margin: 0 auto;
