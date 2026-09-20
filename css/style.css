@@ -21,8 +21,12 @@ header nav a {
   margin-right: 16px;
 }
 
-nav a[aria-current="page"] {
+header nav a [aria-current='page'] {
   font-weight: bold;
+}
+
+nav a[aria-current="page"] {
+  font-weight: normal;
   text-decoration: underline;
 }
 
