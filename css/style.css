@@ -7,7 +7,7 @@ body {
 header {
   background-color: #2A1F2D;
   color: #FFFFFF;
-  padding: 10px 25px;
+  padding: 5px 25px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -34,6 +34,7 @@ nav a[aria-current="page"] {
   color: #ffffff;
   padding: 3px 16px;
   z-index: 100;
+  border-radius: 50px;
   text-decoration: none;
 }
 
