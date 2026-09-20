@@ -8,6 +8,9 @@ header {
   background-color: #2A1F2D;
   color: #FFFFFF;
   padding: 10px 10px;
+  display: flex;
+  border-radius: 30px;
+  margin: 30px;
 }
 
 header nav a {
