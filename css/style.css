@@ -58,6 +58,9 @@ h2 {
 
 p {
   font-size: 1.25rem;
+}
+
+p, a {
   margin-top: 5px;
 }
 
