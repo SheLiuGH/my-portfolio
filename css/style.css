@@ -60,10 +60,6 @@ p {
   font-size: 1.25rem;
 }
 
-p, a {
-  margin-top: 5px;
-}
-
 .description {
   max-width: 50%;
   text-align: left;
