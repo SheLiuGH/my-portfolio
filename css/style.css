@@ -29,10 +29,10 @@ nav a[aria-current="page"] {
 .skip-link {
   position: absolute;
   top: -40px;
-  left: 0;
+  left: -20px;
   background-color: #2A1F2D;
   color: #ffffff;
-  padding: 3px 16px;
+  padding: 3px 12px 3px 30px;
   z-index: 100;
   border-radius: 50px;
   text-decoration: none;
