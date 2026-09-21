@@ -82,6 +82,8 @@ footer {
   color: #FFFFFF;
   padding: 0px 25px;
   border-radius: 50px;
+  justify-content: space-between;
+  align-items: baseline;
   width: fit-content;
   margin: 30px;
 }
