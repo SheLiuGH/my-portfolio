@@ -82,7 +82,6 @@ footer {
   color: #FFFFFF;
   padding: 0px 25px;
   display: flex;
-  justify-content: space-between;
   align-items: baseline;
   border-radius: 50px;
   width: fit-content;
