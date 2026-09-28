@@ -115,7 +115,7 @@ th {
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #f0f0f0;
+  background-color: #d6d6d6;
 }
 
 .swatch {
