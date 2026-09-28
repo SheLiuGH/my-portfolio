@@ -131,6 +131,7 @@ tbody tr:nth-child(odd) {
 .swatch-neutral { background-color: #3B2C35; }
 .swatch-accent { background-color: #59C9A5; }
 .swatch-cta { background-color: #56E39F; }
+.swatch-table { background-color: #D6D6D6; }
 
 .type-sample-h1 { font-size: 2.25rem; }
 .type-sample-h2 { font-size: 1.75rem; }
