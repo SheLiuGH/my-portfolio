@@ -143,10 +143,12 @@ button[type="submit"] {
 }
 
 form {
-  background-color: #56E39F;
+  background-color: #F2F2F2;
+  color: #ffffff;
   padding: 32px;
   border-radius: 8px;
   max-width: 480px;
+  align-items: center;
 }
 
 .swatch {
