@@ -135,12 +135,14 @@ button[type="submit"] {
   display: block;
   margin-top: 2rem;
   background-color: #59C9A5;
-  color: #ffffff;
-  font-size: 1.25rem;
+  color: #2A1F2D;
+  font-size: 1.75rem;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 form {
