@@ -128,7 +128,6 @@ input, textarea {
   margin-top: 0.25rem;
   width: 100%;
   max-width: 480px;
-  min-height: 100px;
 }
 
 button[type="submit"] {
