@@ -23,13 +23,15 @@
 <section class="description">
   <h1>ARTWORKS</h1>
   <p>Here you will find all of the artworks I have for display!</p> 
+  <p>You can click and drag an image into this box to keep it at the top!</p>
+  <div> id="fav" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)"></div>
 </section>
   
 <main id="main-content">
   <h2>Finished Illustrations</h2>
-        <img src="assets/Lulu.jpg" alt="An illustration of a anime-style circus actor character balancing on a ball and looking towards the viewer." width="auto" height="400">
-        <img src="assets/Soul.jpg" alt="An illustration of a frog-like entity roaming a street." width="auto" height="400" loading="lazy">
-        <img src="assets/AriaXia.jpg" alt="An illustration of two anime-style characters laying in a field looking at each other." width="auto" height="400" loading="lazy">
+        <img src="assets/Lulu.jpg" alt="An illustration of a anime-style circus actor character balancing on a ball and looking towards the viewer." width="auto" height="400" draggable="true">
+        <img src="assets/Soul.jpg" alt="An illustration of a frog-like entity roaming a street." width="auto" height="400" loading="lazy" draggable="true">
+        <img src="assets/AriaXia.jpg" alt="An illustration of two anime-style characters laying in a field looking at each other." width="auto" height="400" loading="lazy" draggable="true">
   <h2>Sketches</h2>
         <img src="assets/Foongus.jpg" alt="A sketch of the pokemon Foongus" width="400" loading="lazy">
         <img src="assets/Lugia.jpg" alt="A sketch of the pokemon Lugia" width="400" loading="lazy">
@@ -44,5 +46,20 @@
   <p>&copy; 2026 Sheldon Liu. <a href="style-tile.html">View this site's Style Tile</a></p>
 </footer>
 
+<script>
+  function dragstartHandler(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+  }
+  function dragoverHandler(ev) {
+    ev.preventDefault();
+  }
+  function dropHandler(ev) {
+    ev.preventDefault();
+    const data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+  }
+    
+</script>
+  
 </body>
 </html>
