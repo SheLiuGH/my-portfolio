@@ -161,13 +161,6 @@ form {
   vertical-align: top;
 }
 
-div#fav {
-  width: 300px;
-  height: 300px;
-  padding: 10px;
-  border: 1px solid #2A1F2D
-}
-
 .swatch-primary { background-color: #2A1F2D; }
 .swatch-neutral { background-color: #3B2C35; }
 .swatch-accent { background-color: #59C9A5; }
