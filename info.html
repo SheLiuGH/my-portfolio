@@ -33,11 +33,32 @@
   <h2>Software and Hardware</h2>
   <p>For all of my digital illustrations, I draw using Clip Studio Paint on a Samsung Galaxy Tab S10.</p>
   <p>For all of my graphic design, I use the Adobe suite on a home computer. This includes programs like Photoshop, Illustrator, and InDesign.</p>
+  <h2>Events</h2>
+  <p>The next event I will be selling at is NerdCon 2026!</p>
+  <button onclick="getLocation()">See How Close You Are!</button>
+  <p id="location-message"></p>
 </main>
 
 <footer>
   <p>&copy; 2026 Sheldon Liu. <a href="style-tile.html">View this site's Style Tile</a></p>
 </footer>
 
+<script>
+  function getLocation() {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  }
+
+  function showPosition(position) {
+    var lat = position.coords.latitude.toFixed(1);
+    var lon = position.coords.longitude.toFixed(1);
+    document.getElementById("location-message").textContent =
+      "You're near " + lat + ", " + lon + ". If you plan on going, I look forward to possibly meeting you!";
+  }
+
+  function showError(error) {
+    document.getElementById("location-message").textContent =
+      "There was a problem getting your location data. That's okay! Feel free to keep browsing the site at your leisure."
+  }
+  </script>
 </body>
 </html>
