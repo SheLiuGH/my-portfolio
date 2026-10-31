@@ -18,13 +18,13 @@ header {
 
 nav {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex-direction: row;
+  gap: 20px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 400px) {
   nav {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
