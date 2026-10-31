@@ -22,7 +22,7 @@ nav {
   gap: 20px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   nav {
     flex-direction: row;
   }
@@ -100,13 +100,14 @@ footer {
 }
 
 .cta {
-  display: inline-block;
+  display: block;
+  width: max-content;
   background-color: #56E39F;
   color: #2A1F2D;
   font-size: 1.25rem;
   padding: 10px 20px;
   border-radius: 4px;
-  margin-top: 5px;
+  margin-top: 5px auto 0 auto;
 }
 
 table {
