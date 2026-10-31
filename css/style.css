@@ -20,11 +20,13 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 @media (min-width: 1200px) {
   nav {
     flex-direction: row;
+    align-items: center;
   }
 }
 
