@@ -10,7 +10,7 @@ header {
   padding: 5px 25px;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   border-radius: 50px;
   max-width: 60%;
   margin: 30px;
@@ -111,8 +111,10 @@ footer {
 }
 
 table {
+  width: 100%;
   border-collapse: collapse;
   max-width: 100%;
+  table-layout: fixed;
 }
 
 th, td {
