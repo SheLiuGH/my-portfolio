@@ -16,6 +16,18 @@ header {
   margin: 30px;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 800px) {
+  nav {
+    flex-direction: row;
+  }
+}
+
 header nav a {
   color: #FFFFFF;
   margin-right: 16px;
