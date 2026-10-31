@@ -22,7 +22,7 @@ nav {
   gap: 20px;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1000px) {
   nav {
     flex-direction: row;
   }
