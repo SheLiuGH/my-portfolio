@@ -114,14 +114,14 @@ footer {
   font-size: 1.25rem;
   padding: 10px 20px;
   border-radius: 4px;
-  margin-top: 5px auto 0 auto;
+  margin: 5px auto 0 auto;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   max-width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 th, td {
