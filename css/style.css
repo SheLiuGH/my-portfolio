@@ -31,16 +31,22 @@ nav {
   }
 
   header {
-    max-width: 60%;
+    max-width: 100%;
   }
 
   table {
     display: table;
   }
 
+  tbody tr {
+    display: table-row;
+  }
+  
   th, td {
     display: table-cell;
+    width: auto;
   }
+  
   th:nth-child(1) {
     width: 60%;
   }
