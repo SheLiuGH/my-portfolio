@@ -40,7 +40,7 @@ nav {
 
   th, td {
     display: table-cell;
-
+  }
   th:nth-child(1) {
     width: 60%;
   }
