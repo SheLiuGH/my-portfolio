@@ -95,6 +95,13 @@ main {
   padding: 40px 20px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+  
+
 footer {
   background-color: #2A1F2D;
   color: #FFFFFF;
