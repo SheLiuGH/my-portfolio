@@ -24,14 +24,14 @@ nav {
   align-items: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   nav {
     flex-direction: row;
     align-items: center;
   }
 
   header {
-    max-width: 100%;
+    max-width: 60%;
   }
 
   table {
