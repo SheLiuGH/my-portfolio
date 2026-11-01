@@ -33,6 +33,17 @@ nav {
   header {
     max-width: 60%;
   }
+
+  table {
+    display: table;
+  }
+
+  th, td {
+    display: table-cell;
+
+  th:nth-child(1) {
+    width: 60%;
+  }
 }
 
 header nav a {
@@ -122,11 +133,12 @@ table {
   border-collapse: collapse;
   max-width: 100%;
   table-layout: fixed;
+  display: block;
 }
 
 table img {
   width: 100%;
-  max-wdidth: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
 }
@@ -135,6 +147,8 @@ th, td {
   border: 2px solid #2A1F2D;
   padding: 1rem;
   text-align: left;
+  display: block;
+  width: 100%;
 }
 
 th {
