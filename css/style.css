@@ -24,7 +24,7 @@ nav {
   align-items: center;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   nav {
     flex-direction: row;
     align-items: center;
@@ -32,23 +32,6 @@ nav {
 
   header {
     max-width: 60%;
-  }
-
-  table {
-    display: table;
-  }
-
-  tbody tr {
-    display: table-row;
-  }
-  
-  th, td {
-    display: table-cell;
-    width: auto;
-  }
-  
-  th:nth-child(1) {
-    width: 60%;
   }
 }
 
@@ -131,6 +114,7 @@ footer {
   font-size: 1.25rem;
   padding: 10px 20px;
   border-radius: 4px;
+  margin-top: 5px auto 0 auto;
   margin: 5px auto 0 auto;
 }
 
@@ -139,22 +123,13 @@ table {
   border-collapse: collapse;
   max-width: 100%;
   table-layout: fixed;
-  display: block;
-}
-
-table img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
+  table-layout: auto;
 }
 
 th, td {
   border: 2px solid #2A1F2D;
   padding: 1rem;
   text-align: left;
-  display: block;
-  width: 100%;
 }
 
 th {
